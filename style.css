@@ -5,10 +5,23 @@ body{
 
 input {
     padding: 1%;
-    border: 100%;
-    border-radius: 60px;
+    border: 300%;
+    border-radius: 100px;
     text-align: center;
+    
 }
 
 
+body{
+    background: rgb(204, 171, 127);
+}
 
+.div1{
+    width: 350px;
+    margin: auto;
+    margin: 10 0 0 450px;
+    overflow: hidden;
+    padding: 75px;
+    background: rgb(169, 224, 57);
+    border-radius: 150px;
+}
