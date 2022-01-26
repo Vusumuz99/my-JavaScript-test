@@ -9,8 +9,8 @@
     <link rel="stylesheet" href="./style.css">
 
 
-</head>
 
+</head>
 <body>
 
     <u>
@@ -18,26 +18,26 @@
     </u>
     <br><br>
 
-    <div class="div1">
-        <form name="myform" method="post">
+    <div id="div1">
+        <form name="loginForm" method="post" action="target.html">
 
-            <label></label>
-            <input type="test" name="Uname" class="intputText" placeholder="Email">
-
-            <br><br>
-
-            <label></label>
-            <input type="Password" name="Pass" class="inputText" placeholder="Password">
+            
+            Email &nbsp <input type="text" name="Email" id="email"/>
 
             <br><br>
 
-            <input type="button" name="log" id="logbutton" value="login" onclick="mySelect()">
+            Password &nbsp &nbsp<input type="password" name="password" id="password"/>&nbsp
             <br><br>
+            <button onclick="addLogin()">Login</button>
+
+            <br><br>
+
+        
 
         </form>
 
 
-<long src="./login.js"></long>
+<script src="./login.js"></script>
 
 
 </body>
