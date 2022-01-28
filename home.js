@@ -5,7 +5,5 @@ var names = ["VUSUMUZI, MALE, AGE: 30","HAPPY, MALE, AGE: 25","WANDILE, MALE, AG
 
 var display = document.getElementById("display");
 
-for (let i = 0; i < names.length; i++ ) {
-    display.innerHTML += "<hr>" + names[i] + "</hr>"
-}
+
 
