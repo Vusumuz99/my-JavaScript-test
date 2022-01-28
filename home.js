@@ -3,9 +3,9 @@ var names = ["VUSUMUZI, MALE, AGE: 30","HAPPY, MALE, AGE: 25","WANDILE, MALE, AG
 "SOPHIE, FEMALE, AGE: 21","SITHEMBISO, MALE, AGE: 29","KHUMBULANI, MALE, AGE: 26","LUCKY, MALE, AGE: 27",
 "NKON, MALE, AGE: 22","MDUDUZI, MALE, AGE: 30","PRECIOUS, FEMALE, AGE: 33",];
 
-var auto = document.getElementById("auto");
+var display = document.getElementById("display");
 
 for (let i = 0; i < names.length; i++ ) {
-    auto.innerHTML += "<hr>" + names[i] + "</hr>"
+    display.innerHTML += "<hr>" + names[i] + "</hr>"
 }
 
