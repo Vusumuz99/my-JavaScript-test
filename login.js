@@ -1,18 +1,26 @@
 
 function addLogin() {
-  if (loginForm.username.value && loginForm.password.value) {
 
 
-    var username = document.getElementById("username").value;
-  document.write('<html><body><h1><center')
-  document.write("welcome" + "");
-  document.write(username);
-  document.write('</center></h1></body></html>') 
 
- 
+  var username = document.getElementById("txt").value;
+  var password = document.getElementById("val").value;
+
+  if (username == "vusi" && password == "bmw") {
+    window.location.href = "./home.html";
+
+    document.write('<html><body><h1><center')
+    document.write("welcome" + "");
+    document.write(username);
+    document.write(password);
+    document.write('</center></h1></body></html>');
+
+
   }
-else
+  else {
 
-alert("please enter your Username & password");
-window.Location.href = "./home.html";
-} 
+    alert("please enter your Username & password");
+
+  }
+
+}
