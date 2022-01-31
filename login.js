@@ -9,8 +9,5 @@ function addLogin() {
   if (username == "user@gmail.com" && password == "mypassword") {
     window.location.href = "home.html";
   }
-  else {
-    alert("please enter your Username & password"); 
-
-  }
+  
 }
